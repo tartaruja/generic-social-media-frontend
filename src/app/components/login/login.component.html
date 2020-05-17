@@ -1,0 +1,17 @@
+<mat-card class="login-card">
+  <form class="example-form">
+      <mat-form-field class="fieldsbaseprops">
+        <mat-label>Username</mat-label>
+        <input matInput placeholder="nice to meet you" [(ngModel)]="this.username" [ngModelOptions]="{standalone: true}">
+      </mat-form-field>
+      <br>
+      <mat-form-field class="fieldsbaseprops">
+          <mat-label>Password</mat-label>
+          <input matInput placeholder="I promise, I won't tell anyone" [(ngModel)]="this.password" [ngModelOptions]="{standalone: true}">
+        </mat-form-field>
+        <br>
+        <button mat-raised-button class="fieldsbaseprops primary txtwhite" (click)="this.login()">Login</button>
+        <br>
+        <button mat-button class="fieldsbaseprops txtprimary" (click)="this.register()">or Register</button>
+  </form>
+</mat-card>

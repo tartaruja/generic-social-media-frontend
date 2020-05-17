@@ -1,0 +1,32 @@
+/* You can add global styles to this file, and also import other style files */
+
+html, body { height: 100%;
+  --background-main-color:#e3feff;
+  --primary-color:#d863ff;
+  --second-color:#49f9ff;
+  --accent-color:#f0ff1b;}
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; background: var(--background-main-color); }
+.primary {
+  background: var(--primary-color);
+}
+.txtprimary {
+  color: var(--primary-color);
+}
+.secondary {
+  background: var(--second-color);
+}
+.txtsecondary {
+  color: var(--second-color);
+}
+.accent {
+  background: var(--accent-color);
+}
+.txtaccent {
+  color: var(--accent-color);
+}
+.txtwhite {
+  color: white;
+}
+.txtblack {
+  color: black;
+}
